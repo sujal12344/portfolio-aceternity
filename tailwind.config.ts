@@ -160,6 +160,10 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(90deg, rgba(4, 7, 29, 1) 0%, rgba(12, 14, 35, 1) 100%)",
+      },
     },
   },
   plugins: [
