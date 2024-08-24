@@ -12,7 +12,13 @@
       }
     ],
     "button-type": "off",
-    "typescript-config/consistent-casing": "off"
+    "typescript-config/consistent-casing": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   },
   "browserslist": [
     "defaults",
