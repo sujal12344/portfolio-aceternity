@@ -3,8 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { Cover } from "./ui/Cover";
+import { FlipWords } from "./ui/flip-words";
 
 const Hero = () => {
+  const words = ["better", "cute", "beautiful", "modern"];
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -34,14 +37,19 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Dynamic Magical portfolio
           </p>
 
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+            Build amazing websites with <br />
+            me at <Cover>warp speed</Cover>
+          </h1>
+
           {/* change md:text-6xl, add more responsive code */}
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+          {/* <TextGenerateEffect
+            words="Did You look for Best User Experience Developer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          /> */}
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Sujal, a Next.js Developer From India.
@@ -55,6 +63,13 @@ const Hero = () => {
               position="right"
             />
           </a>
+          <div className="h-[40rem] flex justify-center items-center px-4">
+            <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+              Build
+              <FlipWords words={words} /> <br />
+              websites with Aceternity UI
+            </div>
+          </div>
         </div>
       </div>
     </div>
