@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -29,7 +31,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -204,14 +206,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link: "https://github.com/sujal12344",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/twitter.svg",
+    link: "https://x.com/sujal12344",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/linkedIn.svg",
+    link: "https://www.linkedin.com/in/sujal-kesharwani-978632258/",
   },
 ];
