@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { Cover } from "@/components/ui/Cover";
+import { Cover } from "./ui/cover";
 import { FlipWords } from "./ui/flip-words";
 
 const Hero = () => {
@@ -31,13 +31,15 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative mt-20 z-10 text-center">
+      <div className="flex justify-center relative sm:mt-10 mt-20 z-10 text-center">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
             Dynamic Magical portfolio
           </p>
-          <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-            Build amazing websites <br />
+          <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-10 sm:py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+            <div className="sm:mb-3 mb-0">
+              Build amazing websites <br />
+            </div>
             with me at <Cover>warp speed</Cover>
           </h1>
           {/* change md:text-6xl, add more responsive code */}

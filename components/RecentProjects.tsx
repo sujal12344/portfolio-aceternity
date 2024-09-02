@@ -10,15 +10,16 @@ const RecentProjects = () => {
     <div className="py-20">
       <h1 className="heading">
         A small selection of
-        <span className="text-purple">Recent Projects</span>
+        <span className="text-purple"> Recent Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
+            onClick={() => window.open(item.site_link, "_blank")}
           >
-            <PinContainer title="visit" href="https://twitter.com/sujal220">
+            <PinContainer title="visit">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]"
@@ -29,7 +30,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 rounded-md sm:w-full sm:h-full"
                 />
               </div>
 
@@ -52,19 +53,27 @@ const RecentProjects = () => {
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className={`border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center`}
+                      className={`border border-white/[.2] rounded-full bg-black-100 lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center`}
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img
+                        src={icon.name}
+                        alt={icon.name}
+                        className="p-2"
+                        onClick={() => window.open(icon.link, "_blank")}
+                      />
                     </div>
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div
+                  className="flex justify-center items-center"
+                  onClick={() => window.open(item.github_link, "_blank")}
+                >
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    Go To Project
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
