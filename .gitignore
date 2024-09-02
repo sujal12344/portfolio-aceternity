@@ -39,3 +39,7 @@ next-env.d.ts
 .env.sentry-build-plugin
 .env
 .env.*
+
+# PWA
+/public/sw*
+/public/workbox*
