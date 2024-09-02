@@ -16,6 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<<<<<<< HEAD
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider
@@ -27,6 +28,19 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
       </body>
+=======
+    <html>
+    <body className={inter.className}>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="dark"
+        enableSystem
+        disableTransitionOnChange
+      >
+        {children}
+      </ThemeProvider>
+    </body>
+>>>>>>> dd60ecfc7100287e739697ddeca0af307bb7f4a2
     </html>
   );
 }
