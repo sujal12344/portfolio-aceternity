@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Your Vision, Our Collaboration: Transparent Communication",
+    title: "Your Vision, Our Collaboration is Transparent Communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -73,35 +73,180 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "AI Companion Builder",
+    des: "AI-Companion Builder is a cool software that lets you create your own custom AI models of people you admire, like actors or celebrities. It's a tool to make personalized artificial intelligence companions based on your favorite individuals.",
+    img: "https://shorturl.at/JcdSx",
+    iconLists: [
+      {
+        name: "/next.svg",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "/ts.svg",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "https://shorturl.at/D9YHE",
+        link: "https://stripe.com",
+      },
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      // {
+      //   name: "/clerk.svg",
+      //   link: "https://clerk.com/",
+      // },
+    ],
+    github_link: "https://github.com/sujal12344/AI-Companion-Builder",
+    site_link: "https://ai-companion.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Chatting Application",
+    des: "A real-time chat application using the MERN stack (MongoDB, Express, React, Node.js) with Socket.IO for instant messaging. The app should enable user account creation, secure real-time communication, and deliver a smooth, responsive chat experience.",
+    img: "/chatApp.png",
+    iconLists: [
+      {
+        name: "https://socket.io/images/logo-dark.svg",
+        link: "https://socket.io/",
+      },
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      // {
+      //   name: "https://expressjs.com/images/favicon.png",
+      //   link: "https://expressjs.com/",
+      // },
+      {
+        name: "https://shorturl.at/aJNbK",
+        link: "https://nodejs.org/",
+      },
+      {
+        name: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+        link: "https://www.mongodb.com/",
+      },
+    ],
+    github_link: "https://github.com/sujal12344/chat-app",
+    site_link: "https://chat-app-fyek.onrender.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "E-Commernce-Store",
+    des: "An E-Commernce-Store where user easily buy good quality clothes and stylish shoes, glasses, bags, accessories, etc.",
+    img: "https://shorturl.at/cs4op",
+    iconLists: [
+      {
+        name: "https://shorturl.at/D9YHE",
+        link: "https://stripe.com",
+      },
+      {
+        name: "https://shorturl.at/KgG4Z",
+        link: "https://redis.io/",
+      },
+
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "https://shorturl.at/aJNbK",
+        link: "https://nodejs.org/",
+      },
+    ],
+    github_link: "https://github.com/sujal12344/E-commernce-website",
+    site_link: "https://e-commernce-website.onrender.com/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "AI-Image-generator",
+    des: "The AI Image Generator is a powerful tool designed to create high-quality images using OpenAI's API. This project leverages advanced AI models to generate images based on user prompts, providing a seamless and intuitive experience.",
+    img: "https://shorturl.at/75W2u",
+    iconLists: [
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "https://vitejs.dev/logo.svg",
+        link: "https://vitejs.dev/",
+      },
+      {
+        name: "https://shorturl.at/IZSs3",
+        link: "https://platform.openai.com",
+      },
+    ],
+    github_link: "https://github.com/sujal12344/AI-Image-generator",
+    site_link: "https://ai-image-generator-eta-flame.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "CryptoDetect Software",
+    des: "CryptoDetect is a comprehensive web application designed to help users track and analyze cryptocurrency trends. Users can store their favorite cryptocurrencies in a favorites section.",
+    img: "https://shorturl.at/FC94B",
+    iconLists: [
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "https://shkarina.me/Recharts.png",
+        link: "https://recharts.org/",
+      },
+      {
+        name: "https://miro.medium.com/v2/resize:fit:1020/1*M4pePOxyzZ5BfowWxLlsfg.png",
+        link: "https://www.coingecko.com/en/api",
+      },
+    ],
+    github_link: "https://github.com/sujal12344/CyptoDetect",
+    site_link: "https://cypto-detect.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Recipe App",
+    des: "The Recipe App is a user-friendly platform for discovering and preparing tasty recipes. Users can easily search for and find delicious dishes, making it simple to cook up something new and delightful.",
+    img: "https://shorturl.at/mui3T",
+    iconLists: [
+      {
+        name: "/re.svg",
+        link: "https://reactjs.org/",
+      },
+      {
+        name: "/tail.svg",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "https://shorturl.at/5nD9u",
+        link: "https://daisyui.com/",
+      },
+      {
+        name: "https://www.edamam.com/assets/img/small-logo.png",
+        link: "https://www.edamam.com/",
+      },
+    ],
+    github_link: "https://github.com/sujal12344/RecipeApp",
+    site_link: "https://recipe-app-puce-psi.vercel.app/",
   },
 ];
 
