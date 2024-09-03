@@ -2,9 +2,14 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandX,
+  IconDeviceDesktopCode,
   IconExchange,
   IconHome,
+  IconInfoCircle,
+  IconMail,
+  IconMap,
   IconNewSection,
+  IconRocket,
   IconTerminal2,
 } from "@tabler/icons-react";
 import Image from "next/image";
@@ -14,44 +19,51 @@ export function FloatingDockDemo() {
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconHome className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/home",
+      href: "/",
     },
 
     {
       title: "About",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconInfoCircle className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/about",
+      href: "#about",
     },
     {
       title: "Projects",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconDeviceDesktopCode className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/projects",
+      href: "#projects",
     },
+    // {
+    //   title: "Testinomial",
+    //   icon: (
+    //     <IconBrandX className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "/testinomial",
+    // },
     {
-      title: "Testinomial",
+      title: "Approach",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconRocket className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/testinomial",
+      href: "#approach",
     },
     {
       title: "Contact",
       icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconMail className="sm:scale-125 h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/contact",
+      href: "#contact",
     },
   ];
   return (
     <div className="flex items-center justify-center w-full">
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        // mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}
       />
     </div>

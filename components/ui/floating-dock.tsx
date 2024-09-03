@@ -29,7 +29,7 @@ export const FloatingDock = ({
   return (
     <>
       <FloatingDockDesktop items={items} className={desktopClassName} />
-      <FloatingDockMobile items={items} className={mobileClassName} />
+      {/* <FloatingDockMobile items={items} className={mobileClassName} /> */}
     </>
   );
 };
@@ -104,9 +104,15 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden md:flex h-16 gap-4 items-end  rounded-2xl bg-gray-50 dark:bg-neutral-900 px-4 pb-3",
+        "mx-auto flex h-16 gap-2 sm:gap-4 items-end bg-gray-50 dark:bg-neutral-900 px-4 sm:px-8 pb-3",
         className
       )}
+      style={{
+        backdropFilter: "blur(16px) saturate(180%)",
+        backgroundColor: "rgba(17, 25, 40, 0.75)",
+        borderRadius: "12px",
+        border: "1px solid rgba(255, 255, 255, 0.125)",
+      }}
     >
       {items.map((item) => (
         <IconContainer mouseX={mouseX} key={item.title} {...item} />
@@ -175,7 +181,7 @@ function IconContainer({
         style={{ width, height }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className="aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative"
+        className="aspect-square rounded-full  flex items-center justify-center relative"
       >
         <AnimatePresence>
           {hovered && (

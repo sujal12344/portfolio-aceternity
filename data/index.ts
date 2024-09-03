@@ -75,7 +75,7 @@ export const projects = [
     id: 1,
     title: "AI Companion Builder",
     des: "AI-Companion Builder is a cool software that lets you create your own custom AI models of people you admire, like actors or celebrities. It's a tool to make personalized artificial intelligence companions based on your favorite individuals.",
-    img: "https://shorturl.at/JcdSx",
+    img: "/AI-Companion.png",
     iconLists: [
       {
         name: "/next.svg",
@@ -143,7 +143,7 @@ export const projects = [
     id: 3,
     title: "E-Commernce-Store",
     des: "An E-Commernce-Store where user easily buy good quality clothes and stylish shoes, glasses, bags, accessories, etc.",
-    img: "https://shorturl.at/cs4op",
+    img: "/E-com.png",
     iconLists: [
       {
         name: "https://shorturl.at/D9YHE",
@@ -174,7 +174,7 @@ export const projects = [
     id: 4,
     title: "AI-Image-generator",
     des: "The AI Image Generator is a powerful tool designed to create high-quality images using OpenAI's API. This project leverages advanced AI models to generate images based on user prompts, providing a seamless and intuitive experience.",
-    img: "https://shorturl.at/75W2u",
+    img: "/AI-Image.png",
     iconLists: [
       {
         name: "/re.svg",
@@ -200,7 +200,7 @@ export const projects = [
     id: 5,
     title: "CryptoDetect Software",
     des: "CryptoDetect is a comprehensive web application designed to help users track and analyze cryptocurrency trends. Users can store their favorite cryptocurrencies in a favorites section.",
-    img: "https://shorturl.at/FC94B",
+    img: "/Cryptodetect.png",
     iconLists: [
       {
         name: "/re.svg",
@@ -226,7 +226,7 @@ export const projects = [
     id: 6,
     title: "Recipe App",
     des: "The Recipe App is a user-friendly platform for discovering and preparing tasty recipes. Users can easily search for and find delicious dishes, making it simple to cook up something new and delightful.",
-    img: "https://shorturl.at/mui3T",
+    img: "/ReceipeApp.png",
     iconLists: [
       {
         name: "/re.svg",
