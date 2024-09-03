@@ -7,7 +7,7 @@ import { Cover } from "./ui/cover";
 import { FlipWords } from "./ui/flip-words";
 
 const Hero = () => {
-  const words = ["Nextjs", "Fullstack", "Curios"];
+  const words = ["Fullstack", "Curious", "Innovative", "Passionate"];
   return (
     <div className="pb-20 pt-36">
       <div>
