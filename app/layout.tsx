@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sujal's Portfolio",
   description: "Modern Portfolio",
-  icons:
-    "https://i.pinimg.com/originals/a0/e2/9e/a0e29eb2aec8fd669977ea1c5220ccd3.jpg",
+  icons: "/logologologo.png",
+  // "https://i.pinimg.com/originals/a0/e2/9e/a0e29eb2aec8fd669977ea1c5220ccd3.jpg",
 };
 
 export default function RootLayout({

@@ -1,18 +1,12 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandX,
   IconDeviceDesktopCode,
-  IconExchange,
   IconHome,
   IconInfoCircle,
   IconMail,
-  IconMap,
-  IconNewSection,
   IconRocket,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [

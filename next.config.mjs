@@ -8,7 +8,9 @@ const pwaConfig = withPWA({
   dest: "public",
   register: true,
   skipWaiting: true,
-  // disable: process.env.NODE_ENV === "development",
+  // sw: "service-worker.js",
+  // scope: "/portfolio",
+  disable: false,
 });
 
 const sentryConfig = {
