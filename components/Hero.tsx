@@ -57,7 +57,7 @@ const Hero = () => {
               {"Developer From India"}
             </div>
           </div>
-          <a href="#about" title="MagicButton">
+          <a href="#projects" title="MagicButton">
             <MagicButton
               handleClick={() => {}}
               title="Show my work"

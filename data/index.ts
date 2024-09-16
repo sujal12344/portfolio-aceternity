@@ -39,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech Innovator with a Deep Passion for Development",
+    title:
+      "Motivated Developer with Insatiable Curiosity for Cutting-Edge Technology",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -103,7 +104,8 @@ export const projects = [
       // },
     ],
     github_link: "https://github.com/sujal12344/AI-Companion-Builder",
-    site_link: "https://ai-companion.vercel.app/",
+    // site_link: "https://ai-companion.vercel.app/",
+    site_link: "https://github.com/sujal12344/AI-Companion-Builder"
   },
   {
     id: 2,
@@ -196,58 +198,58 @@ export const projects = [
     github_link: "https://github.com/sujal12344/AI-Image-generator",
     site_link: "https://ai-image-generator-eta-flame.vercel.app/",
   },
-  {
-    id: 5,
-    title: "CryptoDetect Software",
-    des: "CryptoDetect is a comprehensive web application designed to help users track and analyze cryptocurrency trends. Users can store their favorite cryptocurrencies in a favorites section.",
-    img: "/Cryptodetect.png",
-    iconLists: [
-      {
-        name: "/re.svg",
-        link: "https://reactjs.org/",
-      },
-      {
-        name: "/tail.svg",
-        link: "https://tailwindcss.com/",
-      },
-      {
-        name: "https://shkarina.me/Recharts.png",
-        link: "https://recharts.org/",
-      },
-      {
-        name: "https://miro.medium.com/v2/resize:fit:1020/1*M4pePOxyzZ5BfowWxLlsfg.png",
-        link: "https://www.coingecko.com/en/api",
-      },
-    ],
-    github_link: "https://github.com/sujal12344/CyptoDetect",
-    site_link: "https://cypto-detect.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Recipe App",
-    des: "The Recipe App is a user-friendly platform for discovering and preparing tasty recipes. Users can easily search for and find delicious dishes, making it simple to cook up something new and delightful.",
-    img: "/ReceipeApp.png",
-    iconLists: [
-      {
-        name: "/re.svg",
-        link: "https://reactjs.org/",
-      },
-      {
-        name: "/tail.svg",
-        link: "https://tailwindcss.com/",
-      },
-      {
-        name: "https://shorturl.at/5nD9u",
-        link: "https://daisyui.com/",
-      },
-      {
-        name: "https://www.edamam.com/assets/img/small-logo.png",
-        link: "https://www.edamam.com/",
-      },
-    ],
-    github_link: "https://github.com/sujal12344/RecipeApp",
-    site_link: "https://recipe-app-puce-psi.vercel.app/",
-  },
+  // {
+  //   id: 5,
+  //   title: "CryptoDetect Software",
+  //   des: "CryptoDetect is a comprehensive web application designed to help users track and analyze cryptocurrency trends. Users can store their favorite cryptocurrencies in a favorites section.",
+  //   img: "/Cryptodetect.png",
+  //   iconLists: [
+  //     {
+  //       name: "/re.svg",
+  //       link: "https://reactjs.org/",
+  //     },
+  //     {
+  //       name: "/tail.svg",
+  //       link: "https://tailwindcss.com/",
+  //     },
+  //     {
+  //       name: "https://shkarina.me/Recharts.png",
+  //       link: "https://recharts.org/",
+  //     },
+  //     {
+  //       name: "https://miro.medium.com/v2/resize:fit:1020/1*M4pePOxyzZ5BfowWxLlsfg.png",
+  //       link: "https://www.coingecko.com/en/api",
+  //     },
+  //   ],
+  //   github_link: "https://github.com/sujal12344/CyptoDetect",
+  //   site_link: "https://cypto-detect.vercel.app/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Recipe App",
+  //   des: "The Recipe App is a user-friendly platform for discovering and preparing tasty recipes. Users can easily search for and find delicious dishes, making it simple to cook up something new and delightful.",
+  //   img: "/ReceipeApp.png",
+  //   iconLists: [
+  //     {
+  //       name: "/re.svg",
+  //       link: "https://reactjs.org/",
+  //     },
+  //     {
+  //       name: "/tail.svg",
+  //       link: "https://tailwindcss.com/",
+  //     },
+  //     {
+  //       name: "https://shorturl.at/5nD9u",
+  //       link: "https://daisyui.com/",
+  //     },
+  //     {
+  //       name: "https://www.edamam.com/assets/img/small-logo.png",
+  //       link: "https://www.edamam.com/",
+  //     },
+  //   ],
+  //   github_link: "https://github.com/sujal12344/RecipeApp",
+  //   site_link: "https://recipe-app-puce-psi.vercel.app/",
+  // },
 ];
 
 export const testimonials = [
