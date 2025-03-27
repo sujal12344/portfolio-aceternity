@@ -104,8 +104,7 @@ export const projects = [
       // },
     ],
     github_link: "https://github.com/sujal12344/AI-Companion-Builder",
-    // site_link: "https://ai-companion.vercel.app/",
-    site_link: "https://github.com/sujal12344/AI-Companion-Builder"
+    site_link: "https://ai-companion-builder.vercel.app/",
   },
   {
     id: 2,
