@@ -50,7 +50,7 @@ const Experience = () => {
                 </p>
                 <div className="flex items-center flex-wrap gap-x-4 text-start md:text-lg font-semibold pt-4">
                   <p className="bg-primary/5 border rounded-md px-2 py-[3px] text-primary font-semibold">
-                    Technologies used
+                    Technologies
                   </p>
                   <div className="flex items-center">
                     {card.technologies.map((tech, index) => (
