@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-import Lottie from "react-lottie";
+// import Lottie from "lottie-react";
 
 import { cn } from "@/lib/utils";
 
