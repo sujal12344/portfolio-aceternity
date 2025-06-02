@@ -321,6 +321,40 @@ export const workExperience = [
   {
     id: 1,
     title: "Full Stack Developer",
+    desc: "Contributed to blockchain-integrated NFT games like Waves Ducks and Arkimals under the Waves Protocol ecosystem.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+    technologies: [
+      {
+        name: "React",
+        icon: "/re.svg",
+        url: "https://reactjs.org/",
+      },
+      {
+        name: "TypeScript",
+        icon: "/ts.svg",
+        url: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://github.com/mongodb.png",
+        url: "https://mongodb.com",
+      },
+      {
+        name: "SCSS",
+        icon: "https://sass-lang.com/assets/img/logos/logo.svg",
+        url: "https://sass-lang.com/",
+      },
+    ],
+    companies: {
+      name: "Arkimals",
+      logo: "https://pbs.twimg.com/profile_images/1831043105237217280/n80yJlDp_400x400.jpg",
+      url: "https://arkimals-game.com/",
+    },
+  },
+  {
+    id: 2,
+    title: "Full Stack Developer",
     desc: "A founding engineer who contributed heavily to building the backend using various AI libraries.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -363,7 +397,7 @@ export const workExperience = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "Frontend Developer",
     desc: "Worked on the frontend of the Raffl's website using Nextjs, React.js, TypeScript, NextUI, framar-motion, and Zustand.",
     className: "md:col-span-2",
@@ -401,22 +435,22 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/github.svg",
-    link: "https://github.com/sujal12344",
-  },
-  {
-    id: 2,
     img: "/twitter.svg",
     link: "https://x.com/Sujalkeshar220",
   },
   {
+    id: 2,
+    img: "/github.svg",
+    link: "https://github.com/sujal12344",
+  },
+  {
     id: 3,
+    img: "/linkedIn.svg",
+    link: "https://www.linkedin.com/in/sujal-kesharwani-518798368/",
+  },
+  {
+    id: 4,
     img: "/resume.svg",
     link: "https://childish.tiiny.site",
   },
-  // {
-  //   id: 3,
-  //   img: "/linkedIn.svg",
-  //   link: "https://www.linkedin.com/in/sujal-kesharwani-978632258/",
-  // },
 ];
